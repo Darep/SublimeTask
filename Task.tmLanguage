@@ -48,6 +48,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Rejected Tasks</string>
+			<key>match</key>
+			<string>^\s*✗[^\[\]]*</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Action Items</string>
 			<key>match</key>
 			<string>^\s*-[^\[\]]*</string>

@@ -19,6 +19,10 @@
          "match": "^\\s*✓[^\\[\\]]*",
          "comment": "Completed Tasks"
       },
+      {  "name": "comment",
+         "match": "^\\s*✗[^\\[\\]]*",
+         "comment": "Rejected Tasks"
+      },
       {  "name": "constant",
          "match": "^\\s*-[^\\[\\]]*",
          "comment": "Action Items"
